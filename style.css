@@ -16,7 +16,7 @@
 }
 
 .header a {
-    gap: 5px
+    gap: 5px;
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
@@ -42,7 +42,7 @@
 
 .random-bar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .random-title {
@@ -53,13 +53,13 @@
 
 .random-card {
     display: flex;
+    padding: 18px;
     flex-direction: column;
     text-align: center;
-    width: 100px;
     height: auto;
 }
 .random-img {
-    border-radius: 10px;
+    border-radius: 12px;
     border:2px solid #3882F6;
 }
 
@@ -84,19 +84,21 @@
 }
 
 .action {
-    background-color: #3882F6;
-    margin: 50px;
-    border-radius: 10px;
-    padding: 10px;
     display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 50px;
+    border-radius: 12px;
+    padding: 10px;
     justify-content: space-around;
+    align-items: center;
 }
 
 .action button {
     background-color: #3882F6;
     border: 2px solid white;
-    border-radius: 10px;
-    color: white;
+    border-radius: 6px;
+    color: #F9FAF8;
     flex-grow: 0;
     align-items: baseline;
 }
